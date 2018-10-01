@@ -1,0 +1,26 @@
+Source: dark-icon-theme
+Section: x11
+Priority: optional
+Maintainer: SSF <ssf@NeverEver.com>
+Build-Depends: libfile-fcntllock-perl, debhelper (>= 7)
+Standards-Version: 3.9.6
+
+Package: dark-theme
+Architecture: all
+Conflicts: dark-theme
+Replaces: dark-icon-theme
+Pre-Depends: sed(>=4.4), whiptail
+Provides: dark-icons, dark-icon-theme, adwaita-icon-theme, mate-icon-theme
+Depends: findutils(>=4.6), coreutils(>=8.26)
+Recommends: yad | kdialog, imagemagick, optipng, p7zip-full, findutils
+Suggests: gtk-theme-switch | gtk-chtheme
+Description: Minimalism at its finest.
+ Currently Includes icon themes for:
+* aMule
+* DolphinEmu
+* FileZilla
+* Gajim
+* IceWM
+* Pidgin
+* Scribus
+* X11/Freedesktop
