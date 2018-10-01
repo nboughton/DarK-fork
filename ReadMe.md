@@ -8,7 +8,7 @@ DarK is a monotone icon theme for dark X11 desktops.
 * Recolorable, works even on light themes
 * Supports more than 7000 icons from the last decade
 
-Howto install?
+### Howto install?
 
 ## Debian testing/unstable
 
