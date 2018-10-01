@@ -34,13 +34,13 @@ SHELL = /bin/bash
 install:
 #BASEICONS
 	for _dir in $$(find icons -type d -not -type f -not -type l); do \
-		install -d "$${_dir/icons/$(ICONTHEMEDIR)}" ;\
+		install -d "$${_dir\icons\$(PREFIX)/share/icons}" ;\
 	done;
 	for _file in $$(find icons -type f -not -type d -not -type l); do \
-		install -D "$$_file" "$${_file/icons/$(ICONTHEMEDIR)}" ;\
+		install -D "$${_file\icons\$(PREFIX)/share/icons}" ;\
 	done;
 	for _link in $$(find icons -type l); do \
-		cp -P  "$$_link" "$${_link/icons/$(ICONTHEMEDIR)}" ;\
+		cp -P  $${_link\icons\$(PREFIX)/share/icons} ;\
 	done;
 
 installextras:
@@ -52,6 +52,7 @@ installextras:
 	install -d $(GAJIM2ICONTHEMEDIR)
 	install -d $(GAJIM3ICONTHEMEDIR)
 	install -d $(GIMP2ICONTHEMEDIR)
+	install -d $(SCRIBUSICONTHEMEDIR)
 	ln -s $(ICONTHEMEDIR)/$(THEME)/App_themes/amule_dark/amule_dark.zip $(AMULEICONTHEMEDIR)/amule_dark.zip
 	ln -s $(ICONTHEMEDIR)/$(THEME)/App_themes/dolphinemu_dark $(DOLPHINEMUICONTHEMEDIR)/$(THEME)
 	ln -s $(ICONTHEMEDIR)/$(THEME)/App_themes/emoticon_dark $(EMOTICONSICONTHEMEDIR)/$(THEME)

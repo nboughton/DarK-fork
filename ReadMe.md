@@ -1,25 +1,32 @@
-DarK is a monotone icon theme for Dark desktops.
+DarK is a monotone icon theme for dark X11 desktops.
 
 ![alt text](https://gitlab.com/sixsixfive/DarK/raw/master/preview.png)
 
 ### Features:
 
 * Designed to stay in the background, so no disturbing colors
-* Recolorable
-* supports more than 7000 icons from the last decade
+* Recolorable, works even on light themes
+* Supports more than 7000 icons from the last decade
+
+Howto install?
+
+## Debian
 
 ```
+su -c 'apt install fakeroot libfile-fcntllock-perl debhelper findutils --no-install-recommends'
 make deb
 su -c 'dpkg -i dark-theme_*.deb && apt install -f --no-install-recommends'
 ```
 
-## Howto install on other distributions
+## On other distributions
 
 ```
 make PREFIX=/usr
 ```
 
-## What icon themes are included?
+## FAQ
+
+### What icon themes are included?
 
 * aMule
 * DolphinEmu
@@ -32,12 +39,12 @@ make PREFIX=/usr
 
 ### Howto change the Icon-theme color?
 
-Just run the [changecolor.sh](https://gitlab.com/sixsixfive/DarK/blob/master/icons/DarK/changecolor.sh) script! eg:
+Just run the [changecolor.sh](https://gitlab.com/sixsixfive/dark-icons/blob/master/DarK/changecolor.sh) script! eg:
 
 ### Icons are unavailable in IceWM
 
-Your IceWM needs to have PNG support otherwise you can create xpm files with the [icons_xpm.sh](https://gitlab.com/sixsixfive/DarK/blob/master/DarK/Extras/App_themes/icewm/DarK/icons_xpm.sh) script.
+At first you have to create the icon themes with [one of the scripts](https://gitlab.com/sixsixfive/dark-icons/blob/master/DarK/App_themes/icewm_dark):
 
-PS: Keep in mind that not all icons are loaded from the themes folder the dark icon theme folder mus be part of the IconPath key in your preferences file.
+PS: The icon theme folder must be part of the IconPath key in your preferences file.
 
-PPS: the theme only supports 16px icons so make sure you set all IconSizes in your preferences to 16px!
+PPS: Some themes have internal icons so you can either remove them or replace(eg: symlink or copy) them with the icewm icon folder!

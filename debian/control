@@ -5,7 +5,7 @@ Maintainer: SSF <ssf@NeverEver.com>
 Build-Depends: libfile-fcntllock-perl, debhelper (>= 7)
 Standards-Version: 3.9.6
 
-Package: dark-theme
+Package: dark-icon-theme
 Architecture: all
 Conflicts: dark-theme
 Replaces: dark-icon-theme
@@ -16,11 +16,11 @@ Recommends: yad | kdialog, imagemagick, optipng, p7zip-full, findutils
 Suggests: gtk-theme-switch | gtk-chtheme
 Description: Minimalism at its finest.
  Currently Includes icon themes for:
-* aMule
-* DolphinEmu
-* FileZilla
-* Gajim
-* IceWM
-* Pidgin
-* Scribus
-* X11/Freedesktop
+ * aMule
+ * DolphinEmu
+ * FileZilla
+ * Gajim
+ * IceWM
+ * Pidgin
+ * Scribus
+ * X11/Freedesktop
