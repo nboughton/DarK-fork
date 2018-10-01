@@ -9,7 +9,7 @@ AMULEICONTHEMEDIR = $(PREFIX)/share/amule/skins
 DOLPHINEMUICONTHEMEDIR = $(PREFIX)/share/games/dolphin-emu/sys/Themes
 EMOTICONSICONTHEMEDIR = $(PREFIX)/share/emoticons
 FILEZILLAICONTHEMEDIR = $(PREFIX)/share/filezilla/resources
-GAJIMICONTHEMEDIR = $(PREFIX)/share/gajim/data/iconsets
+GAJIMICONTHEMEDIR = $(PREFIX)/share/gajim/iconsets
 #GAJIM3ICONTHEMEDIR = $(PREFIX)/lib/python3/dist-packages/gajim/data/iconsets
 GIMP2ICONTHEMEDIR = $(PREFIX)/share/gimp/2.0/icons
 SCRIBUSICONTHEMEDIR = $(PREFIX)/share/scribus/icons
@@ -18,7 +18,7 @@ SCRIBUSICONTHEMEDIR = $(PREFIX)/share/scribus/icons
 
 info:
 	@echo ""
-	@echo "run \"make deb\" to build a debian unstable package that contains everything"
+	@echo "run \"make deb\" to build a Debian Unstable package that contains everything"
 	@echo ""
 	@echo "run \"make rpm\" to build a SuSE Tumbleweed package that contains everything"
 	@echo ""
@@ -50,7 +50,6 @@ installextras:
 	install -d $(EMOTICONSICONTHEMEDIR)
 	install -d $(FILEZILLAICONTHEMEDIR)
 	install -d $(GAJIMICONTHEMEDIR)
-#	install -d $(GAJIM3ICONTHEMEDIR)
 	install -d $(GIMP2ICONTHEMEDIR)
 	install -d $(SCRIBUSICONTHEMEDIR)
 	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/amule_dark/amule_dark.zip $(AMULEICONTHEMEDIR)/amule_dark.zip
@@ -58,7 +57,6 @@ installextras:
 	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/emoticon_dark $(EMOTICONSICONTHEMEDIR)/$(THEME)
 	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/filezilla_dark $(FILEZILLAICONTHEMEDIR)/$(THEME)
 	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/gajim_dark $(GAJIMICONTHEMEDIR)/$(THEME)
-#	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/gajim_dark $(GAJIM3ICONTHEMEDIR)/$(THEME)
 	ln -sf $(ICONTHEMEDIR)/$(THEME) $(GIMP2ICONTHEMEDIR)/$(THEME)
 	ln -sf $(ICONTHEMEDIR)/$(THEME)/App_themes/scribus_dark/$(THEME) $(SCRIBUSICONTHEMEDIR)/$(THEME)
 	install -D $(CURDIR)/$(THEME)/App_themes/scribus_dark/$(THEME).xml $(SCRIBUSICONTHEMEDIR)/$(THEME).xml

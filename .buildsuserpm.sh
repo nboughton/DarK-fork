@@ -22,7 +22,7 @@ make PREFIX=${_basedir}/dark-icon-theme/usr SYSCONFDIR=${_basedir}/dark-icon-the
 cat <<\EOFALL> ${_basedir}/dark-icon-theme.spec
 Buildroot: BUILDROOT
 Name: dark-icon-theme
-Version: 2018.10.01.151808
+Version: 2018.10.01.152129
 Release: 1
 Summary: Minimalism at its finest.
 License: CC-BY-SA_V4
