@@ -8,6 +8,8 @@ LANG=C
 MESSAGE="$(date -u '+%Y.%m.%d.%H%M%S')"
 cp -f debian/changelog_template debian/changelog
 sed -i s'/__COMMIT__/'$MESSAGE'/g' debian/changelog
+cp -f .buildsuserpm.sh.template .buildsuserpm.sh
+sed -i s'/__COMMIT__/'$MESSAGE'/g' .buildsuserpm.sh
 git add .
 git commit -m "$MESSAGE"
 #git remote add origin http://gitlab.com/sixsixfive/dark.git

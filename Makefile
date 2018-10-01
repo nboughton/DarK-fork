@@ -68,7 +68,6 @@ installextras:
 deb:
 	fakeroot debian/rules binary
 rpm:
-	cp -f $(CURDIR)/.buildsuserpm.sh.template $(CURDIR)/.buildsuserpm.sh
 	chmod +x $(CURDIR)/.buildsuserpm.sh
 	fakeroot sh -c $(CURDIR)/.buildsuserpm.sh
 	
