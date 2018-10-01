@@ -25,7 +25,8 @@ install: build
 	dh_installdirs
 	mkdir -p $(CURDIR)/debian/dark-icon-theme/usr/share/icons
 	cp -R $(CURDIR)/DarK $(CURDIR)/debian/dark-icon-theme/usr/share/icons/DarK
-	make PREFIX=$(CURDIR)/debian/dark-icon-theme/usr SYSCONFDIR=$(CURDIR)/debian/dark-icon-theme/etc ICONTHEMEDIR=/usr/share/icons install
+	#cp is faster!
+#	make PREFIX=$(CURDIR)/debian/dark-icon-theme/usr SYSCONFDIR=$(CURDIR)/debian/dark-icon-theme/etc ICONTHEMEDIR=/usr/share/icons install
 	make PREFIX=$(CURDIR)/debian/dark-icon-theme/usr SYSCONFDIR=$(CURDIR)/debian/dark-icon-theme/etc ICONTHEMEDIR=/usr/share/icons installextras
 
 binary-indep: build install
