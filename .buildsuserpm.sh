@@ -22,7 +22,7 @@ make PREFIX=${_basedir}/dark-icon-theme/usr SYSCONFDIR=${_basedir}/dark-icon-the
 cat <<\EOFALL> ${_basedir}/dark-icon-theme.spec
 Buildroot: BUILDROOT
 Name: dark-icon-theme
-Version: 2018.10.01.150200
+Version: 2018.10.01.150918
 Release: 1
 Summary: Minimalism at its finest.
 License: CC-BY-SA_V4
@@ -61,5 +61,4 @@ rpmbuild -bb --buildroot=${_basedir}/dark-icon-theme ${_basedir}/dark-icon-theme
 if [ -f ${_basedir}/../noarch/dark-icon-theme*.rpm ]; then
 	mv ${_basedir}/../noarch/dark-icon-theme*.rpm ${_basedir}
 	rm -rf ${_basedir}/../noarch ${_basedir}/dark-icon-theme.spec
-	rm -f ${_basedir}/.buildsuserpm.sh
 fi

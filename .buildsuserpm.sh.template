@@ -61,5 +61,4 @@ rpmbuild -bb --buildroot=${_basedir}/dark-icon-theme ${_basedir}/dark-icon-theme
 if [ -f ${_basedir}/../noarch/dark-icon-theme*.rpm ]; then
 	mv ${_basedir}/../noarch/dark-icon-theme*.rpm ${_basedir}
 	rm -rf ${_basedir}/../noarch ${_basedir}/dark-icon-theme.spec
-	rm -f ${_basedir}/.buildsuserpm.sh
 fi
