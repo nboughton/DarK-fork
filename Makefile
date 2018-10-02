@@ -14,7 +14,7 @@ GAJIMICONTHEMEDIR = $(PREFIX)/share/gajim/iconsets
 GIMP2ICONTHEMEDIR = $(PREFIX)/share/gimp/2.0/icons
 SCRIBUSICONTHEMEDIR = $(PREFIX)/share/scribus/icons
 
-.PHONY: install installextras uninstall uninstallextras deb
+.PHONY: install installextras uninstall uninstallextras deb rpm
 
 info:
 	@echo ""
@@ -81,5 +81,5 @@ uninstallextras:
 	rm -rf $(GIMP2ICONTHEMEDIR)/$(THEME)
 	rm -rf $(SCRIBUSICONTHEMEDIR)/$(THEME)
 	rm -f $(SCRIBUSICONTHEMEDIR)/$(THEME).xml
-	rm -f $(XSESSIONCONFDIR)/99_disable_gtk3_overlay_scrollbars_dark
+	rm -f $(XSESSIONCONFDIR)/99_enable_pidgin_theme_dark
 
