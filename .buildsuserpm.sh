@@ -16,7 +16,7 @@ mkdir -p ${_basedir}/dark-icon-theme/usr/share/icons
 cp -R ${_basedir}/DarK ${_basedir}/dark-icon-theme/usr/share/icons/DarK
 #cp is faster!
 #make PREFIX=${_basedir}/dark-icon-theme/usr SYSCONFDIR=${_basedir}/dark-icon-theme/etc ICONTHEMEDIR=/usr/share/icons install
-make PREFIX=${_basedir}/dark-icon-theme/usr SYSCONFDIR=${_basedir}/dark-icon-theme/etc ICONTHEMEDIR=/usr/share/icons installextras
+make PREFIX=${_basedir}/dark-icon-theme/usr XSESSIONCONFDIR=${_basedir}/dark-icon-theme/etc/X11/xinit/xinitrc.d ICONTHEMEDIR=/usr/share/icons installextras
 
 #creating the spec file:
 cat <<\EOFALL> ${_basedir}/dark-icon-theme.spec
