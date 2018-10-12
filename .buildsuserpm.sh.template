@@ -41,12 +41,12 @@ BuildArch: noarch
 Plain and simple dark theme
 
 %post
-if [ -d "/usr/share/themes/DarK/backup" ]; then
+if [ -d "/usr/share/icons/DarK/backup" ]; then
 	rm -rf /usr/share/icons/DarK/backup
 fi
 
 %postun
-if [ -d "/usr/share/themes/DarK/backup" ]; then
+if [ -d "/usr/share/icons/DarK/backup" ]; then
 	rm -rf /usr/share/icons/DarK/backup
 fi
 
