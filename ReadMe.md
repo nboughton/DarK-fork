@@ -13,9 +13,9 @@ DarK is a monotone icon theme for dark X11 desktops.
 ## Debian
 
 ```
-su -c 'apt install fakeroot libfile-fcntllock-perl debhelper findutils --no-install-recommends'
+su -lc 'apt install fakeroot libfile-fcntllock-perl debhelper findutils --no-install-recommends'
 make deb
-su -c 'dpkg -i dark-icon-theme*.deb && apt install -f --no-install-recommends'
+su -lc 'dpkg -i dark-icon-theme*.deb && apt install -f --no-install-recommends'
 ```
 ## SuSE
 
