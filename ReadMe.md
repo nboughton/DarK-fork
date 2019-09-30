@@ -41,7 +41,7 @@ make PREFIX=/usr
 * Gajim
 * IceWM
 * Pidgin
-* Scribus
+* Scribus (ny done)
 * X11/Freedesktop
 
 ### Howto change the Icon-theme color?
