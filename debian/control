@@ -7,7 +7,7 @@ Standards-Version: 3.9.6
 
 Package: dark-icon-theme
 Architecture: all
-Conflicts: dark-theme
+Conflicts:
 Replaces: dark-icon-theme
 Pre-Depends: sed(>=4.4), whiptail, sed
 Provides: dark-icons, dark-icon-theme, adwaita-icon-theme, mate-icon-theme
