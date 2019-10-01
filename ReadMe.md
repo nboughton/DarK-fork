@@ -17,12 +17,12 @@ su -c 'apt install fakeroot libfile-fcntllock-perl debhelper findutils --no-inst
 make deb
 su -c 'dpkg -i dark-icon-theme*.deb && apt install -f --no-install-recommends'
 ```
-## SuSE
+## SuSE, GeckoLinux
 
 ```
-sudo zypper install fakeroot rpmbuild findutils
+su -c 'zypper install fakeroot rpmbuild findutils'
 make rpm
-sudo zypper install --no-recommends dark-icon-theme*.rpm
+su -c 'zypper install --no-recommends dark-icon-theme*.rpm'
 ```
 
 ## On other distributions
