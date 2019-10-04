@@ -7,7 +7,7 @@ DarK is a monotone icon theme for dark X11-themes like [DarK](https://gitlab.com
 * Designed to stay in the background, so no disturbing colors
 * Recolorable, works even on light themes
 * Supports more than 7000 icons from the last decade
-* Fast and optimized PNG iconset
+* Prerendered and optimized PNG iconset
 
 ### Howto install?
 
@@ -40,6 +40,7 @@ make PREFIX=/usr
 * DolphinEmu
 * FileZilla
 * Gajim
+* GIMP
 * IceWM
 * Pidgin
 * Scribus (ny done)

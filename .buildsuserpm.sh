@@ -22,7 +22,7 @@ make PREFIX=${_basedir}/dark-icon-theme/usr XSESSIONCONFDIR=${_basedir}/dark-ico
 cat <<\EOFALL> ${_basedir}/dark-icon-theme.spec
 Buildroot: BUILDROOT
 Name: dark-icon-theme
-Version: 20191004143031
+Version: 20191004201712
 Release: 1
 Summary: Minimalism at its finest.
 License: CC-BY-SA_V4
