@@ -1,4 +1,4 @@
-DarK is a monotone icon theme for dark X11 desktops.
+DarK is a monotone icon theme for dark X11-themes like [DarK](https://gitlab.com/sixsixfive/DarK).
 
 ![alt text](https://gitlab.com/sixsixfive/dark-icons/raw/master/.preview.png)
 
@@ -7,6 +7,7 @@ DarK is a monotone icon theme for dark X11 desktops.
 * Designed to stay in the background, so no disturbing colors
 * Recolorable, works even on light themes
 * Supports more than 7000 icons from the last decade
+* Fast and optimized PNG iconset
 
 ### Howto install?
 
