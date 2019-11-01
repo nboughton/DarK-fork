@@ -87,7 +87,7 @@ _create_symbolic_links
 cd ${basedir}/DarK-svg/44x44
 printf "\nCreating $(basename $PWD) icons\n"  && sleep 2
 for _file in $(find -type f -name '*.svg'); do
-	sed -i 'viewBox="0 0 16 16"/viewBox="-3 -3 22 22" width="44" height="44"/' $_file
+	sed -i 's/viewBox="0 0 16 16"/viewBox="-3 -3 22 22" width="44" height="44"/' $_file
 done
 _create_symbolic_links
 ###48 - dialog icons!
