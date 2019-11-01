@@ -1,0 +1,10 @@
+if [ -d $HOME/.purple ]; then
+	if [ -d /usr/share/icons/monotone/App_themes/pidgin_monotone_status ]; then
+		if [ -L $HOME/.purple/themes/Monotone ]; then
+			ln -sf /usr/share/icons/monotone/App_themes/pidgin_monotone_status $HOME/.purple/themes/Monotone
+		else
+			ln -s /usr/share/icons/monotone/App_themes/pidgin_monotone_status $HOME/.purple/themes/Monotone
+		fi
+	fi
+fi
+

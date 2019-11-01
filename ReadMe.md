@@ -7,53 +7,22 @@ DarK is a monotone icon theme for dark X11-themes like [DarK](https://gitlab.com
 * Designed to stay in the background, so no disturbing colors
 * Recolorable, works even on light themes
 * Supports more than 7000 icons from the last decade
-* Prerendered and optimized PNG iconset
 
-### Howto install?
+### Howto to build the theme?
 
-## Deb-like
-
-```
-apt install fakeroot libfile-fcntllock-perl debhelper findutils --no-install-recommends
-make deb
-dpkg -i dark-icon-theme*.deb && apt install -f --no-install-recommends
-```
-## SuSE, GeckoLinux
-
-```
-zypper install fakeroot rpmbuild findutils
-make rpm
-zypper install --no-recommends dark-icon-theme*.rpm
-```
-
-## On other distributions
-
-```
-make PREFIX=/usr
-```
-
-## FAQ
-
-### What icon themes are included?
-
-* aMule
-* DolphinEmu
-* FileZilla
-* Gajim
-* GIMP
-* IceWM
-* Pidgin
-* Scribus (ny done)
-* X11/Freedesktop
+Just run the build scripts you also need to build the svg theme to create the png theme
 
 ### Howto change the Icon-theme color?
 
-Just run the [changecolor.sh](https://gitlab.com/sixsixfive/dark-icons/blob/master/DarK/changecolor.sh) script! eg:
+Just run the changecolor.sh script! eg:
 
-### Icons are unavailable in IceWM
+### Throbber (activity icon in GTK3 won't work)
 
-At first you have to create the icon themes with [one of the scripts](https://gitlab.com/sixsixfive/dark-icons/blob/master/DarK/App_themes/icewm_dark):
+That is an issue with GTK3 since the most themes still use the animation icons from the X11/freedesktop themes which are multiple images instead of one. 
+I will not change this since this would break other desktops so to change this add the following text to your GTK3 css file(eg $HOME/.config/gtk-3.0/gtk.css):
 
-PS: The icon theme folder must be part of the IconPath key in your preferences file.
 
-PPS: Some themes have internal icons so you can either remove them or replace(eg: symlink or copy) them with the icewm icon folder!
+```
+spinner{
+-gtk-icon-source: -gtk-icontheme("progress-0");}
+```

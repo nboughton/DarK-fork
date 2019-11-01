@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-#remove the backup files
-if [ -d "/usr/share/icons/DarK/backup" ]; then
-	rm -rf /usr/share/icons/DarK/backup
-fi

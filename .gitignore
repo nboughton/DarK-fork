@@ -1,2 +1,6 @@
 *.deb
 *.rpm
+DarK-png
+DarK-svg
+DarK-png/*
+DarK-svg/*
