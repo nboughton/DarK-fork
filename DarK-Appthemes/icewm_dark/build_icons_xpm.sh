@@ -1,25 +1,18 @@
 #!/bin/sh
-set -ex
-if type find &>/dev/null; then
-	printf "\n"
-else
-	printf "missing findutils\n"
-	exit 1
-fi
-if type convert &>/dev/null; then
-	printf "\n"
-else
-	printf "missing imagemagick\n"
-	exit 1
-fi
+set -e
+(command -v find &>/dev/null||(printf '\nFIND is not installed!\n' && exit 1))
+(command -v convert &>/dev/null||(printf '\nImagemagick is not installed!\n' && exit 1))
 _basedir="$(dirname "$(readlink -f "${0}")")"
+if [ ! -d "$_basedir"/../../DarK-png ]; then
+	printf "You need to build the PNG-theme fist!"
+fi
 cd "$_basedir"
 if [ -d "$_basedir"/icons ]; then
 	rm -rf "$_basedir"/icons
 fi
 mkdir -p "$_basedir"/icons
 ###16px
-for _f in $(find "$_basedir"/../../../../../icons/DarK/16x16/pool -mindepth 1 -name '*.png' \
+for _f in $(find "$_basedir"/../../DarK-png/16x16/pool -mindepth 1 -name '*.png' \
 -not -name "gnome-*" -not -name "x-content*" -not -name "application-*" -not -name "image-*" \
 -not -name "audio-*" -not -name "video-*" -not -name "stock_*" -not -name "stock-*" \
 -not -name "battery-*" -not -name "csd-*" -not -name "cs-*" -not -name "gimp-*" -not -name "gpm-*" \

@@ -1,0 +1,11 @@
+These are the Dirs on a debian system!
+
+AMULE = $(PREFIX)/share/amule/skins #needs to be a zip file
+Dolphin Emu = $(PREFIX)/share/games/dolphin-emu/sys/Themes
+Emoticons  = $(PREFIX)/share/emoticons
+Filezilla  = $(PREFIX)/share/filezilla/resources
+Gajim = $(PREFIX)/share/gajim/iconsets
+Scribus = $(PREFIX)/share/scribus/icons
+Pidgin = $HOME/.purple/themes
+IceWM = Icon theme folder must be part of the IconPath key in your preferences file.
+GIMP = just relink the Dark-svg or Dark-png folder to $(PREFIX)/share/gimp/2.0/icons

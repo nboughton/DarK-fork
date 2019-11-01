@@ -2,9 +2,9 @@
 ##this is on by default to save resources
 _OPTIPNG=1
 set -e
-(command -v rsvg-convert &>/dev/null||exit 1)
-(command -v optipng &>/dev/null||exit 1)
-(command -v find &>/dev/null||exit 1)
+(command -v rsvg-convert &>/dev/null||(printf '\nRSVG-CONVERT is not installed!\n' && exit 1))
+(command -v optipng &>/dev/null||(printf '\nOPTIPNG is not installed!\n' && exit 1))
+(command -v find &>/dev/null||(printf '\nFIND is not installed!\n' && exit 1))
 if [ ! -t 0 ]; then
 	x-terminal-emulator -e "$0"
 	exit 0

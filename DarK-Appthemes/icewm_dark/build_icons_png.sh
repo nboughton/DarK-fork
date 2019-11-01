@@ -1,19 +1,17 @@
 #!/bin/sh
-set -ex
-if type find &>/dev/null; then
-	printf "\n"
-else
-	printf "missing findutils\n"
-	exit 1
-fi
+set -e
+(command -v find &>/dev/null||(printf '\nFIND is not installed!\n' && exit 1))
 _basedir="$(dirname "$(readlink -f "${0}")")"
+if [ ! -d "$_basedir"/../../DarK-png ]; then
+	printf "You need to build the PNG-theme fist!"
+fi
 cd "$_basedir"
 if [ -d "$_basedir"/icons ]; then
 	rm -rf "$_basedir"/icons
 fi
 mkdir -p "$_basedir"/icons
 ###16px
-for _f in $(find "$_basedir"/../../16x16/pool -mindepth 1 -name '*.png' \
+for _f in $(find "$_basedir"/../../DarK-png/16x16/pool -mindepth 1 -name '*.png' \
 -not -name "gnome-*" -not -name "x-content*" -not -name "application-*" -not -name "image-*" \
 -not -name "audio-*" -not -name "video-*" -not -name "stock_*" -not -name "stock-*" \
 -not -name "battery-*" -not -name "csd-*" -not -name "cs-*" -not -name "gimp-*" -not -name "gpm-*" \
@@ -30,5 +28,5 @@ for _f in $(find "$_basedir"/../../16x16/pool -mindepth 1 -name '*.png' \
 -not -name "insert-*" -not -name "kali-*" -not -name "kbd-*" -not -name "kdenlive-*" -not -name "kipi-*" -not -name "kwave_*" \
 -not -name "libreoffice*" -not -name "light-*" -not -name "multimedia-player-*" -not -name "node-*" -not -name "openofficeorg*" \
 -not -name "pattern-*" -not -name "preferences-*" -not -name "printer-*" -not -name "progress-*" -not -name "template_*");do
-	ln -sf $_f $(echo $_f| sed 's\^.*/\icons/\;s\.png\_16x16.png\')
+	cp $_f $(echo $_f| sed 's\^.*/\icons/\;s\.png\_16x16.png\')
 done
