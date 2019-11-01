@@ -212,7 +212,7 @@ done
 #recolor the icons
 printf "\n\nChanging color\n\n"
 for _svg in $(find "$_basedir" -mindepth 2 -type f -name "*.svg" -not -path "*/backup/*"); do
-	sed -i 's/#f1f1f2/'$newcolor'/g' $_svg
+	sed -i 's/#f1f2f2/'$newcolor'/g' $_svg
 	sed -i 's/#333333/'$newcolor2'/g' $_svg
 done
 case $_dialog in
