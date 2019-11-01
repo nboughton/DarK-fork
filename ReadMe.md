@@ -1,4 +1,4 @@
-DarK is a monotone icon theme for X11-themes it can also be used as a monotone fallback icon theme.
+DarK is a monotone icon theme for X11-themes it can also be used as a fallback icon theme.
 
 ![alt text](https://gitlab.com/sixsixfive/dark-icons/raw/master/.preview.png)
 
@@ -11,6 +11,10 @@ DarK is a monotone icon theme for X11-themes it can also be used as a monotone f
 ### Howto to build the theme?
 
 Just run the build script, you also need to build the svg theme to create the png theme.
+
+##### What is better SVG or PNG theme.
+
+PNG needs longer to build, but is a lot more resource friendly and more compatible than SVG files. 
 
 ### Howto install the theme?
 
