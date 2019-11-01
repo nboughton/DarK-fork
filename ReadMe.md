@@ -14,7 +14,7 @@ Just run the build scripts you also need to build the svg theme to create the pn
 
 ### Howto change the Icon-theme color?
 
-Just run the changecolor.sh script! eg:
+Just run the changecolor.sh script!
 
 ### Throbber (activity icon in GTK3 won't work)
 
