@@ -12,10 +12,6 @@ DarK is a monotone icon theme for X11-themes it can also be used as a fallback i
 
 Just run the build script, you also need to build the svg theme to create the png theme.
 
-##### What is better SVG or PNG theme.
-
-PNG needs longer to build, but is a lot more resource friendly and more compatible than SVG files. 
-
 ### Howto install the theme?
 
 Copy the Dark-svg or DarK-png folder to your X11 icon theme dir(usually $SYSPREFIX/share/icons)
