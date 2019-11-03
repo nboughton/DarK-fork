@@ -22,13 +22,3 @@ The App themes need to be copied to the applications theme folder (see DIRS.READ
 
 Just run the changecolor.sh script!
 
-### Throbber (activity icon in GTK3 won't work)
-
-That is an issue with GTK3 since the most themes still use the animation icons from the X11/freedesktop themes which are multiple images instead of one. 
-I will not change this since this would break other desktops so to change this add the following text to your GTK3 css file(eg $HOME/.config/gtk-3.0/gtk.css):
-
-
-```
-spinner{
--gtk-icon-source: -gtk-icontheme("progress-0");}
-```
