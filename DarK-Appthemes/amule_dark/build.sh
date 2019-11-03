@@ -15,3 +15,4 @@ if (command -v zip >/dev/null 2>&1||command -v 7z >/dev/null 2>&1); then
 	fi
 else
 	printf "\nYou either need zip or 7z instaled!\n"
+fi
