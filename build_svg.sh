@@ -26,12 +26,12 @@ if [ "$_CREATESYSYMBOLICICONS" = "1" ] ; then
 ###since there is no limitation what a symbolic icon is or where it 
 ###appears it relinks the whole icon theme!
 	printf "\nCreating symbolic icons in $(basename $PWD)\n" && sleep 2
-	for _file in $(find -not -path "*/symbolic/*" -name '*.svg'); do
+	for _file in $(find -not -path "*/symbolic/*" -not -path "*/animations/*" -name '*.svg'); do
 		if [ ! -f symbolic/"$(echo $_file|sed 's#^.*/##'|sed 's#.svg$#-symbolic.svg#')" ]; then
 			ln -sv ".$(echo $_file)" symbolic/"$(echo $_file|sed 's#^.*/##'|sed 's#.svg$#-symbolic.svg#')"
 		fi
 	done
-###some more weird naming breakage on rtl icons
+###some more weird naming breakage on rtl icons(rtl comes after the symbolic suffix)
 	for _filertl in $(find -path "*/symbolic/*" -name "*-rtl.symbolic*"); do
 		ln -sv $(echo $_filertl|sed 's#^.*/##') symbolic/"$(echo $_filertl|sed 's#^.*/##'|sed 's#-rtl.symbolic#.symbolic-rtl#')"
 	done
