@@ -5,7 +5,6 @@
 _CREATESYSYMBOLICICONS=0
 set -e
 (command -v sed &>/dev/null||(printf '\nSED is not installed!\n' && exit 1))
-(command -v echo &>/dev/null||(printf '\nECHO is not installed!\n' && exit 1))
 (command -v find &>/dev/null||(printf '\nFIND is not installed!\n' && exit 1))
 if [ ! -t 0 ]; then
 	x-terminal-emulator -e "$0"
