@@ -59,7 +59,7 @@ if [ ! -w "$_basedir" ]; then
 	exit 1
 fi
 #check for the right dir
-if [ ! -d "$_basedir"/../DarK-png ]; then
+if [ ! -f "$_basedir"/changecolor.sh ]; then
 	case $_dialog in
 		yad)
 			yad --image=dialog-information --text '\twrong dir! or wrongly installed!\t' --button=OK:1 --on-top --center;;
