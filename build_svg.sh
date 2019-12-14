@@ -26,7 +26,7 @@ if [ "$_CREATESYSYMBOLICICONS" = "1" ] ; then
 ###since there is no limitation what a symbolic icon is or where it 
 ###appears it relinks the whole icon theme!
 	printf "\nCreating symbolic icons in $(basename $PWD)\n" && sleep 2
-	for _file in $(find -not -path "*/symbolic/*" -not -path "*/animations/*" -name '*.svg'); do
+	for _file in $(find -not -path "*/symbolic/*" -not -path "*/animations/*" -not -path "*/emblems/*" -name '*.svg'); do
 		if [ ! -f symbolic/"$(echo $_file|sed 's#^.*/##'|sed 's#.svg$#-symbolic.svg#')" ]; then
 			ln -sv ".$(echo $_file)" symbolic/"$(echo $_file|sed 's#^.*/##'|sed 's#.svg$#-symbolic.svg#')"
 		fi
