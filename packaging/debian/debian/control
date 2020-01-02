@@ -1,0 +1,11 @@
+Source: darksvg-icon-theme
+Section: x11
+Priority: optional
+Maintainer: SSF <ssf@NeverEver.com>
+Build-Depends: libfile-fcntllock-perl, debhelper (>= 7), sed, findutils
+Standards-Version: 3.9.6
+
+Package: darksvg-icon-theme
+Architecture: all
+Depends: hicolor-icon-theme
+Description: DarK icons svg version without app and symbolic icons.
