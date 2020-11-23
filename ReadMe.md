@@ -1,3 +1,8 @@
+## Fork of https://gitlab.com/sixsixfive/DarK-icons
+
+This is a minor fork of teh DarK-icons repo just to add some extra icons and symlinks
+
+### Original README
 DarK is a monotone icon theme for X11-themes it can also be used as a fallback icon theme.
 
 ![alt text](https://gitlab.com/sixsixfive/dark-icons/raw/master/.preview.png)
