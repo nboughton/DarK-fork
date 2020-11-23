@@ -4,7 +4,7 @@
  <g id="tools" transform="translate(-32.101 -248.47)">
   <g id="gimp-tool-colorize" transform="translate(-48.899 -28.528)">
    <rect transform="translate(241 217)" height="16" width="16" y="60" x="-160" fill="none"/>
-   <g fill="#d8dee9">
+   <g fill="#e5e9f0">
     <rect rx="1" ry="1" height="4" width="11" y="278" x="83"/>
     <rect rx="1" ry="1" height="6" width="3" y="286" x="87"/>
     <rect ry=".5" height="1" width="3" y="280" x="93"/>

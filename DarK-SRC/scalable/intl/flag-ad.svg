@@ -29,10 +29,10 @@
      height="6"
      width="1"
      id="rect861"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:0.86602545;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:0.86602545;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <rect
      transform="matrix(0,1,1,0,0,0)"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:0.49999997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:0.49999997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect863"
      width="1"
      height="2"
@@ -44,11 +44,11 @@
      height="3"
      width="1"
      id="rect865"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:0.6123724;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:0.6123724;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      transform="matrix(0,1,1,0,0,0)" />
   <rect
      transform="scale(1,-1)"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:0.86602533;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:0.86602533;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect867"
      width="1"
      height="6"
@@ -57,14 +57,14 @@
   <path
      id="path869"
      d="M 7,6 6,5 v 1 z"
-     style="fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
-     style="fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 3,6 4,5 v 1 z"
      id="path19" />
   <rect
      id="rect2"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      height="7"
      width="1"
      y="5"
@@ -72,7 +72,7 @@
      transform="scale(-1,1)" />
   <rect
      id="rect4"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      height="3"
      width="1"
      y="8"
@@ -80,7 +80,7 @@
      transform="matrix(0,1,1,0,0,0)" />
   <rect
      id="rect6"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      height="3"
      width="1"
      y="8"
@@ -88,7 +88,7 @@
      transform="matrix(0,1,1,0,0,0)" />
   <rect
      id="rect8"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      height="5"
      width="1"
      y="-11"
@@ -96,10 +96,10 @@
      transform="scale(1,-1)" />
   <path
      id="path10"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      d="M 12,6 11,5 v 1 z" />
   <path
      id="path12"
-     style="fill:#d8dee9"
+     style="fill:#e5e9f0"
      d="m 11,12 1,-1 h -1 z" />
 </svg>

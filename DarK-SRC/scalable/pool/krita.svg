@@ -28,7 +28,7 @@
       <stop
          id="stop864"
          offset="0"
-         style="stop-color:#d8dee9;stop-opacity:1;" />
+         style="stop-color:#e5e9f0;stop-opacity:1;" />
       <stop
          id="stop866"
          offset="1"
@@ -39,11 +39,11 @@
       <stop
          id="stop856"
          offset="0"
-         style="stop-color:#d8dee9;stop-opacity:1;" />
+         style="stop-color:#e5e9f0;stop-opacity:1;" />
       <stop
          id="stop858"
          offset="1"
-         style="stop-color:#d8dee9;stop-opacity:0;" />
+         style="stop-color:#e5e9f0;stop-opacity:0;" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -66,7 +66,7 @@
      transform="matrix(-1,0,0,1,-51.416136,-256.03999)"
      id="tools">
     <g
-       style="fill:#d8dee9"
+       style="fill:#e5e9f0"
        transform="translate(-127.42,79.021)"
        id="gimp-tool-paintbrush">
       <g
@@ -88,7 +88,7 @@
          id="path825"
          transform="matrix(-1,0,0,1,76.003864,177.01899)"
          d="M 8 1 A 7 7 0 0 0 3.6425781 2.5292969 C 5.7325143 4.2473311 6.5450137 4.4517992 9 8 C 8.19152 8.0319 7.6437031 8.5167536 7.2832031 9.3085938 C 4.8513831 6.5954472 3.8063545 5.0235003 2.7441406 3.390625 A 7 7 0 0 0 1 8 A 7 7 0 0 0 8 15 A 7 7 0 0 0 15 8 A 7 7 0 0 0 8 1 z M 2 8 C 7.0000004 12 7.4921034 9.0009168 9.078125 9.0058594 C 9.9642593 8.9487437 10.572388 9.3941613 10.835938 9.90625 C 11.158442 11.333142 10.746789 12.434176 10 13 C 7.4604201 16 2.0024071 10.080249 2 8 z "
-         style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
+         style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
       <g
          id="g4"
          transform="matrix(-0.11313749,-0.47412962,-0.61035606,0.09136861,78.968149,174.10266)" />

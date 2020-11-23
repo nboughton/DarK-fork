@@ -3,7 +3,7 @@
 <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <linearGradient id="linearGradient19282" gradientTransform="matrix(1.1667 0 0 1 627.67 1787.4)" osb:paint="solid">
-<stop stop-color="#d8dee9" offset="0"/>
+<stop stop-color="#e5e9f0" offset="0"/>
 </linearGradient>
 <linearGradient id="linearGradient4789" gradientTransform="matrix(1.3718 0 0 1 -2219.6 491.33)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient19282"/>
 </defs>

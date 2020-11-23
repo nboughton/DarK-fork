@@ -29,7 +29,7 @@
      height="14"
      width="4"
      id="rect819"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:1.24721909;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:1.24721909;stroke-opacity:0.94017095" />
   <rect
      rx="1"
      y="1"
@@ -37,11 +37,11 @@
      height="14"
      width="4"
      id="rect821"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:1.24721909;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:1.24721909;stroke-opacity:0.94017095" />
   <rect
      rx="1"
      transform="rotate(90)"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:1.05409253;stroke-opacity:0.94017095"
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:1.05409253;stroke-opacity:0.94017095"
      id="rect823"
      width="4"
      height="10"
@@ -54,7 +54,7 @@
      height="2"
      width="6"
      id="rect825"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
   <rect
      rx="0.5"
      y="1"
@@ -62,7 +62,7 @@
      height="2"
      width="6"
      id="rect827"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
   <rect
      rx="0.5"
      y="13"
@@ -70,7 +70,7 @@
      height="2"
      width="6"
      id="rect829"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-opacity:0.94017095" />
   <rect
      rx="0.5"
      y="13"
@@ -78,5 +78,5 @@
      height="2"
      width="6"
      id="rect831"
-     style="opacity:1;fill:#d8dee9;fill-opacity:1;stroke:none;stroke-width:0.96483606;stroke-opacity:0.94017095" />
+     style="opacity:1;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:0.96483606;stroke-opacity:0.94017095" />
 </svg>

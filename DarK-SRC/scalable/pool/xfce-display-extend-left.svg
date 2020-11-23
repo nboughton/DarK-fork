@@ -25,7 +25,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect2"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      ry="0.5"
      height="2"
      width="2"
@@ -33,16 +33,16 @@
      x="-13" />
   <path
      id="path4"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      d="m 15,5 c 0.554,0 1,0.446 1,1 v 4 c 0,0.554 -0.446,1 -1,1 H 9 C 8.446,11 8,10.554 8,10 V 6 C 8,5.446 8.446,5 9,5 Z m 0,1 H 9 v 4 h 6 z" />
   <path
      id="path6"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      d="m 7,6 c 0.554,0 1,0.446 1,1 v 4 c 0,0.554 -0.446,1 -1,1 H 1 C 0.446,12 0,11.554 0,11 V 7 C 0,6.446 0.446,6 1,6 Z M 7,7 H 1 v 4 h 6 z" />
   <rect
      transform="scale(-1,1)"
      id="rect8"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      height="2"
      width="2"
      y="7"
@@ -50,7 +50,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect10"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      height="1"
      width="1"
      y="7"
@@ -58,7 +58,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect12"
-     style="fill:#d8dee9;fill-opacity:0.98636002;stroke-width:0.86602998"
+     style="fill:#e5e9f0;fill-opacity:0.98636002;stroke-width:0.86602998"
      height="1"
      width="3"
      y="8"
@@ -66,7 +66,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect14"
-     style="fill:#d8dee9;fill-opacity:0.98636002;stroke-width:2"
+     style="fill:#e5e9f0;fill-opacity:0.98636002;stroke-width:2"
      height="2"
      width="2"
      y="8"
@@ -74,7 +74,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect16"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      ry="0.5"
      height="1"
      width="4"
@@ -83,7 +83,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect18"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      ry="0.5"
      height="2"
      width="2"
@@ -92,7 +92,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect20"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      ry="0.5"
      height="2"
      width="1"
@@ -101,7 +101,7 @@
   <rect
      transform="scale(-1,1)"
      id="rect22"
-     style="fill:#d8dee9;fill-opacity:0.98636002"
+     style="fill:#e5e9f0;fill-opacity:0.98636002"
      ry="0.5"
      height="2"
      width="1"

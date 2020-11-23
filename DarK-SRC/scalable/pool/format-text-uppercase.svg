@@ -25,14 +25,14 @@
   <g
      id="g6"
      font-weight="400"
-     fill="#d8dee9">
+     fill="#e5e9f0">
     <path
        id="path4"
-       style="fill:#d8dee9"
+       style="fill:#e5e9f0"
        d="m3 1c-1 0-2 1-2 2v12h2v-4h3v4h2v-12c0-1-1-2-2-2zm1 2h1c0.52105 0 1 0.54711 1 1v5h-3v-5c0-0.48995 0.43073-1 1-1z" />
     <path
        d="M 11,1 C 10,1 9,2 9,3 v 12 h 2 v -4 h 3 v 4 h 2 V 3 C 16,2 15,1 14,1 Z m 1,2 h 1 c 0.52105,0 1,0.54711 1,1 V 9 H 11 V 4 c 0,-0.48995 0.43073,-1 1,-1 z"
-       style="fill:#d8dee9"
+       style="fill:#e5e9f0"
        id="path16" />
   </g>
 </svg>

@@ -3,7 +3,7 @@
 <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
 <defs>
 <linearGradient id="linearGradient19282" gradientTransform="matrix(1.1667 0 0 1 627.67 1787.4)" osb:paint="solid">
-<stop stop-color="#d8dee9" offset="0"/>
+<stop stop-color="#e5e9f0" offset="0"/>
 </linearGradient>
 </defs>
 <g id="text_letter_spacing" transform="matrix(.99946 0 0 1 -348.81 -836.36)" fill="url(#linearGradient19282)">
