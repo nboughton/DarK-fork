@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--Part of Monotone: https://github.com/sixsixfive/Monotone, released under cc-by-sa_v4-->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16">
- <g fill="#f1f2f2" transform="rotate(-78,8,8)">
+ <g fill="#d8dee9" transform="rotate(-78,8,8)">
   <path opacity="0.054" d="m8 1a7 7 0 0 0 -7 7 7 7 0 0 0 7 7 7 7 0 0 0 7 -7 7 7 0 0 0 -7 -7zm0 3a4 4 0 0 1 4 4 4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4z"/>
   <path d="m8 5a3 3 0 0 1 0.2031 0.0098 3 3 0 0 0 -0.2031 -0.0098z"/>
   <path d="m8.3828 5.0293a3 3 0 0 1 0.1016 0.0137 3 3 0 0 0 -0.1016 -0.0137z"/>

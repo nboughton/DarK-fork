@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--Part of Monotone: https://github.com/sixsixfive/Monotone, released under cc-by-sa_v4-->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16">
- <g fill="#f1f2f2">
+ <g fill="#d8dee9">
   <path style="color:#000000;isolation:auto;mix-blend-mode:normal" d="m3 2h1v1h-1z"/>
   <path style="color:#000000;isolation:auto;mix-blend-mode:normal" d="m5 1h1v1h-1z"/>
   <path style="color:#000000;isolation:auto;mix-blend-mode:normal" d="m7 1h1v1h-1z"/>

@@ -1,6 +1,6 @@
 <!--Part of Monotone: https://github.com/sixsixfive/Monotone, released under cc-by-sa_v4-->
 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-    <g transform="translate(-283 85)" fill="#f1f2f2">
+    <g transform="translate(-283 85)" fill="#d8dee9">
         <circle cx="288.848" cy="-71.5" r="1.5" style="marker:none"/>
         <circle cx="294.848" cy="-71.5" r="1.5" style="marker:none"/>
         <path d="M284.215-83.035a.989.989 0 0 0-.735.33 1.017 1.017 0 0 0-.244.67 1 1 0 0 0 .26.68c.181.197.465.32.76.32h2.043l.887 6.51.99-.137-1.14-8.373zm.021 1h.02c-.06 0-.033-.004-.024.006.01.01.004.008.004-.006z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
